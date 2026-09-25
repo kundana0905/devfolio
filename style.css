@@ -1,0 +1,104 @@
+:root {
+    --brand: #2563eb;
+    --ink: #1f2937;
+    --background: #f8fafc;
+    --card: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: var(--ink);
+    background: var(--background);
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: var(--brand);
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: var(--brand);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.project-card {
+    background: var(--card);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.project-card a {
+    color: var(--brand);
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background: var(--ink);
+    color: white;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+}
+
+/* Desktop layout */
+@media (min-width: 700px) {
+
+    .project-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
