@@ -1,81 +1,85 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
-    <title>kundana__Developer Portfolio</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kundana's personal developer portfolio">
+  <title>Kundana | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header>
-        <h1>KUNDANA</h1>
+  <header class="site-header">
+    <a class="brand" href="#about">Kundana</a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <main>
+    <section id="about" class="about">
+      <p class="eyebrow">HELLO, WORLD!</p>
+      <h1>Hi, I'm Kundana Sreeja.</h1>
+      <h2>A Computer Science Student & Aspiring Developer</h2>
+      <p>
+        I am a computer science student learning programming,
+        web development, and problem-solving. I enjoy building
+        projects and improving my skills one step at a time.
+      </p>
+      <a class="primary-link" href="#projects">Explore my projects ↓</a>
+    </section>
 
-    <main>
+    <section id="projects" class="projects">
+      <p class="eyebrow">MY WORK</p>
+      <h2>Projects</h2>
+      <p>Here are some projects from my learning journey.</p>
 
-        <section id="about">
-            <h2>About Me</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Developer Portfolio</h3>
+          <p>A responsive personal website built using HTML and CSS.</p>
+          <a href="https://github.com/kundana0905/devfolio"
+             target="_blank" rel="noopener noreferrer">
+            View repository →
+          </a>
+        </article>
 
-            <p>
-                Hello! I am a computer science student interested in
-                programming, artificial intelligence, and web development.
-                I enjoy learning new technologies and building useful projects.I am always ready for new activities and like to do a lot of expermenting.
-            </p>
-        </section>
+        <article class="project-card">
+          <h3>Flexbox Layout</h3>
+          <p>A CSS layout project exploring flexible rows and navigation.</p>
+          <a href="https://github.com/kundana0905"
+             target="_blank" rel="noopener noreferrer">
+            Explore my GitHub →
+          </a>
+        </article>
 
-        <section id="projects">
-            <h2>My Projects</h2>
+        <article class="project-card">
+          <h3>Programming Practice</h3>
+          <p>Beginner coding exercises focused on logic and problem-solving.</p>
+          <a href="https://github.com/kundana0905"
+             target="_blank" rel="noopener noreferrer">
+            Explore my GitHub →
+          </a>
+        </article>
+      </div>
+    </section>
+  </main>
 
-            <div class="project-grid">
-
-                <article class="project-card">
-                    <h3>Python Programs</h3>
-                    <p>
-                        A collection of beginner Python programs created while
-                        learning programming fundamentals.
-                    </p>
-                    <a href="#">View Project</a>
-                </article>
-
-                <article class="project-card">
-                    <h3>UNIHUB</h3>
-                    <p>
-                        A campus event and club management portal designed
-                        to help students discover and manage college activities.
-                    </p>
-                    <a href="#">View Project</a>
-                </article>
-
-                <article class="project-card">
-                    <h3>Student Study Planner</h3>
-                    <p>
-                        An idea for an AI-powered application that helps
-                        students organize their exam preparation.
-                    </p>
-                    <a href="#">View Project</a>
-                </article>
-
-            </div>
-        </section>
-
-    </main>
-
-    <footer id="contact">
-        <h2>Contact Me</h2>
-
-        <a href="mailto:itznayaki9@gmailcom">Email</a>
-        <a href="https://github.com/kundana0905">GitHub</a>
-
-        <p>© 2026 kundana</p>
-    </footer>
+  <footer id="contact">
+    <h2>Let's Connect</h2>
+    <p>I'm learning, building, and looking forward to new opportunities.</p>
+    <div class="contact-links">
+      <a href="mailto:YOUR_EMAIL@example.com">Email</a>
+      <a href="https://github.com/kundana0905"
+         target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/"
+         target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+    <p class="copyright">© 2026 Kundana Sreeja</p>
+  </footer>
 
 </body>
 </html>
