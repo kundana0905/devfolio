@@ -164,3 +164,34 @@ footer a {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+/* Improve navigation and prevent narrow-screen overflow */
+.site-header {
+  width: 100%;
+}
+
+nav a {
+  padding: 6px 4px;
+}
+
+.project-card {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.project-card a,
+.contact-links a {
+  overflow-wrap: anywhere;
+}
+
+/* Keyboard accessibility */
+a:focus-visible {
+  outline: 3px solid var(--brand);
+  outline-offset: 4px;
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
