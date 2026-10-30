@@ -2,7 +2,7 @@
 
 ## About
 
-A responsive personal developer portfolio built with semantic HTML5 and CSS3. It showcases my introduction, projects, and contact information.
+A responsive personal developer portfolio built with semantic HTML5 and CSS3. It introduces Kundana Sreeja, showcases projects, and provides email and GitHub contact links.
 
 ## Technologies Used
 
@@ -39,7 +39,7 @@ https://github.com/kundana0905/devfolio
 * Consistent colour and typography system
 * Responsive navigation
 * Grid-based project cards
-* Email, GitHub, and LinkedIn contact links
+* Email and GitHub contact links
 
 ## Author
 
